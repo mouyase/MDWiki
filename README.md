@@ -9,4 +9,4 @@
  - 汉化部分使用说明
  - 制作一个演示站
 
-演示地址：https://mouyase.github.io/MDwiki
+演示地址：https://mouyase.github.io/MDWiki
