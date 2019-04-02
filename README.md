@@ -1,42 +1,18 @@
-[![Build Status](https://travis-ci.org/Dynalon/mdwiki.png?branch=master)](https://travis-ci.org/Dynalon/mdwiki)
-
 MDwiki
 ======
 
-100% static single file CMS/Wiki done purely with client-side Javascript and HTML5.
-
-See http://www.mdwiki.info for more info and documentation.
+一个纯HTML+JS实现的单文件CMS/Wiki系统
 ------
 
-## !! This project is currently unmaintained!!
+因为原版很久没有更新过了，所以我Clone下来后调整了一些内容，比如jQuery和Bootstrap的版本，同时修复了一些小Bug
 
-Download
---------
+计划：
+ - 汉化部分页面内容
+ - 汉化部分使用说明
+ - 制作一个演示站
 
-See <https://github.com/Dynalon/mdwiki/releases> for readily precompiled releases.
+演示地址：https://mouyase.github.io/MDwiki
+------
 
-How to build from source
-------------------------
-(applies to master branch, stable may differ)
-
-1. Install node.js >= 0.10 and npm (if not included)
-2. Clone the mdwiki repo
-3. Install deps and build MDwiki (you need automake installed - if you are on Windows check the contents of the Makefile for the list of commands to run them manually):
-
-```
-    make
-```
-
-4. Find the `mdwiki.html` in the `dist/` folder
-
-5. Development
-
-For development, use
-
-    grunt devel 
-
-To get unminified source code compiled to `dist/mdwiki-debug.html`, as well as auto file watching and livereload support. Symlink the development mdwiki file into your webroot for testing.
-
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/Dynalon/mdwiki/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+原作者地址：https://github.com/Dynalon/mdwiki
 
